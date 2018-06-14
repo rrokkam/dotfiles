@@ -47,3 +47,6 @@ setopt globdots
 
 # Stop zsh from asking for confirmation when using rm
 unalias rm
+
+# Shorten time for key sequences to remove delay when pressing Esc
+KEYTIMEOUT=1  # 10ms
