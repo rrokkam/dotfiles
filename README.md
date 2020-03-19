@@ -1,7 +1,10 @@
-To change the xkbmap layout, follow the instructions from this StackOverflow post.
-https://stackoverflow.com/questions/45021978/create-a-custom-setxkbmap-option
+# configuration files
 
-Need to add here:
+Idempotent and easy, using dotbot. Run ./install from the current directory to set up dotfiles. The configuration information is in install.conf.yaml. 
 
-a copy of the xkbmap that can be used on a qwerty keyboard (without colemak on the system)
-some descriptions (in this file) of what the rest of these config files are
+I would be remiss if I didn't link you to [Dotbot](https://github.com/anishathalye/dotbot).
+
+
+This set of configurations is a work-in-progress. It is meant for MacOS, though at some point if I find myself wanting something like this for Linux often enough, then I will extend the ./install script a bit.
+
+In the legacy folder you can find the configurations/utilities that I used while in college and especially in my internship. 
