@@ -2,7 +2,8 @@
     "global": {
         "check_for_updates_on_startup": true,
         "show_in_menu_bar": true,
-        "show_profile_name_in_menu_bar": false
+        "show_profile_name_in_menu_bar": false,
+        "unsafe_ui": false
     },
     "profiles": [
         {
@@ -162,7 +163,7 @@
                                     "key_code": "6",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -258,7 +259,7 @@
                                     "key_code": "equal_sign",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -797,7 +798,8 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": []
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
@@ -810,7 +812,8 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": []
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
                 }
             ],
             "fn_function_keys": [
@@ -1210,76 +1213,6 @@
                             "key_code": "open_bracket"
                         }
                     ]
-                },
-                {
-                    "from": {
-                        "key_code": "6"
-                    },
-                    "to": [
-                        {
-                            "key_code": "equal_sign"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "7"
-                    },
-                    "to": [
-                        {
-                            "key_code": "6"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "8"
-                    },
-                    "to": [
-                        {
-                            "key_code": "7"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "9"
-                    },
-                    "to": [
-                        {
-                            "key_code": "8"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "0"
-                    },
-                    "to": [
-                        {
-                            "key_code": "9"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "hyphen"
-                    },
-                    "to": [
-                        {
-                            "key_code": "0"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "equal_sign"
-                    },
-                    "to": [
-                        {
-                            "key_code": "hyphen"
-                        }
-                    ]
                 }
             ],
             "virtual_hid_keyboard": {
@@ -1311,7 +1244,8 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": []
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
@@ -1324,7 +1258,8 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": []
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
                 }
             ],
             "fn_function_keys": [
